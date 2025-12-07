@@ -8,7 +8,11 @@ __pycache__/
 env/
 venv/
 acis-env/
-data/
+# Ignore actual data files but track DVC metafiles
+data/*
+!data/*.dvc
+!data/processed/*.dvc
+
 # VSCode
 .vscode/
 
