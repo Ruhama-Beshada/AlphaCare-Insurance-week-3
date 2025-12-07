@@ -15,9 +15,7 @@ data/
 # Jupyter
 .ipynb_checkpoints
 
-# DVC
-*.dvc
-/data/local_storage/
+
 
 # Models / outputs
 models/
