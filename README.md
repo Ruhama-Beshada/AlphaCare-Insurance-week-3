@@ -46,7 +46,7 @@ The goal is to analyze claims, premiums, and loss ratios to generate insights fo
 
 **Steps:**
 1. Compute loss ratio:  
-```python
+
 df['LossRatio'] = df['TotalClaims'] / df['TotalPremium']
 Aggregate by province:
 
